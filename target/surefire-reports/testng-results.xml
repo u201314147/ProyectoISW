@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VisorTestSuite" duration-ms="39561" started-at="2018-05-14T13:56:52Z" finished-at="2018-05-14T13:57:31Z">
+    <groups>
+    </groups>
+    <test name="CategoriaWebDriverTest" duration-ms="39561" started-at="2018-05-14T13:56:52Z" finished-at="2018-05-14T13:57:31Z">
+      <class name="pe.com.test.seleniumwd.CategoriaWebDriverTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@7f690630]" name="setUp" is-config="true" duration-ms="3270" started-at="2018-05-14T08:56:52Z" finished-at="2018-05-14T08:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="insertarCategoria_FlujoBasico()[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@7f690630]" name="insertarCategoria_FlujoBasico" duration-ms="18029" started-at="2018-05-14T08:56:55Z" finished-at="2018-05-14T08:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarCategoria_FlujoBasico -->
+        <test-method status="PASS" signature="insertarCategoria_FlujoAlternativo()[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@7f690630]" name="insertarCategoria_FlujoAlternativo" duration-ms="15880" started-at="2018-05-14T08:57:13Z" depends-on-methods="pe.com.test.seleniumwd.CategoriaWebDriverTest.insertarCategoria_FlujoBasico" finished-at="2018-05-14T08:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarCategoria_FlujoAlternativo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@7f690630]" name="tearDown" is-config="true" duration-ms="2359" started-at="2018-05-14T08:57:29Z" finished-at="2018-05-14T08:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pe.com.test.seleniumwd.CategoriaWebDriverTest -->
+    </test> <!-- CategoriaWebDriverTest -->
+  </suite> <!-- VisorTestSuite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CategoriaSuite]">
+  <test name="CategoriaTest">
+    <classes>
+      <class name="pe.com.core.test.CategoriaWebDriverTest"/>
+    </classes>
+  </test> <!-- CategoriaTest -->
+</suite> <!-- Failed suite [CategoriaSuite] -->

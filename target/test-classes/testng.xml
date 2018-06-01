@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VisorTestSuite" parallel="false">
+	<test name="CategoriaTest" enabled="false">
+		<parameter name="nombreInsertar" value="Chocolates" />
+		<parameter name="nombreActualizar" value="Lacteos" />
+		<classes>
+			<class name="pe.com.test.CategoriaTest" />
+		</classes>
+	</test>
+	<test name="AutorWebDriverTest">
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaAutor" value="C:\Data\DataAutor.xls"/>
+		<parameter name="rutaLibro" value="C:\Data\DataLibro.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorWebDriverTest" />
+			<class name="pe.com.test.seleniumwd.LibroWebDriverTest" />	
+		</classes>
+	</test>
+</suite> 

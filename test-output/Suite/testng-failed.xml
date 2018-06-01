@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="nombreInsertar" value="Lacteos"/>
+  <parameter name="nombreActualizar" value="Gaseosas"/>
+  <test name="Test">
+    <parameter name="nombreInsertar" value="Lacteos"/>
+    <parameter name="nombreActualizar" value="Gaseosas"/>
+    <classes>
+      <class name="pe.com.test.CategoriaTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="nombreInsertar" value="Lacteos"/>
+    <parameter name="nombreActualizar" value="Gaseosas"/>
+    <classes>
+      <class name="pe.com.test.CategoriaTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="metodoFueraDeTiempo"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- pe.com.test.CategoriaTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
