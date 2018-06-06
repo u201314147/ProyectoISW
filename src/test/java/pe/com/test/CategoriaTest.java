@@ -2,8 +2,6 @@ package pe.com.test;
 
 import org.testng.annotations.Test;
 
-import pe.com.core.business.CategoriaBusiness;
-import pe.com.core.entity.Categoria;
 import pe.com.test.bean.CategoriaBean;
 
 import org.testng.annotations.BeforeClass;
@@ -16,7 +14,7 @@ import org.testng.annotations.AfterTest;
 
 public class CategoriaTest {
 
-	private final CategoriaBusiness categoriaBusiness 
+	/*private final CategoriaBusiness categoriaBusiness 
 											= new CategoriaBusiness();
 	private static Categoria categoria;
 	
@@ -128,5 +126,5 @@ public class CategoriaTest {
 		}
 	}
 	
-
+*/
 }
