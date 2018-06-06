@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [VisorTestSuite]">
-  <parameter name="navegador" value="chrome"/>
-  <parameter name="rutaAutor" value="C:\Data\DataAutor.xls"/>
-  <parameter name="remoto" value="0"/>
-  <parameter name="fuenteDatos" value="Excel"/>
-  <parameter name="rutaLibro" value="C:\Data\DataLibro.xls"/>
-  <test name="AutorWebDriverTest">
+  <test thread-count="5" name="AutorWebDriverTest(failed)">
     <parameter name="navegador" value="chrome"/>
     <parameter name="rutaAutor" value="C:\Data\DataAutor.xls"/>
     <parameter name="remoto" value="0"/>
     <parameter name="fuenteDatos" value="Excel"/>
     <parameter name="rutaLibro" value="C:\Data\DataLibro.xls"/>
     <classes>
-      <class name="pe.com.test.seleniumwd.AutorWebDriverTest"/>
-      <class name="pe.com.test.seleniumwd.LibroWebDriverTest"/>
-    </classes>
-  </test> <!-- AutorWebDriverTest -->
-  <test name="AutorWebDriverTest(failed)">
-    <parameter name="navegador" value="chrome"/>
-    <parameter name="rutaAutor" value="C:\Data\DataAutor.xls"/>
-    <parameter name="remoto" value="0"/>
-    <parameter name="fuenteDatos" value="Excel"/>
-    <parameter name="rutaLibro" value="C:\Data\DataLibro.xls"/>
-    <classes>
-      <class name="pe.com.test.seleniumwd.LibroWebDriverTest">
-        <methods>
-          <include name="insertarAutores" invocation-numbers="0 1"/>
-          <include name="inicioClase"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
       <class name="pe.com.test.seleniumwd.AutorWebDriverTest">
         <methods>
           <include name="tearDown"/>
@@ -38,6 +15,13 @@
           <include name="insertarAutores" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- pe.com.test.seleniumwd.AutorWebDriverTest -->
+      <class name="pe.com.test.seleniumwd.LibroWebDriverTest">
+        <methods>
+          <include name="insertarAutores" invocation-numbers="0 1"/>
+          <include name="inicioClase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
     </classes>
   </test> <!-- AutorWebDriverTest(failed) -->
 </suite> <!-- Failed suite [VisorTestSuite] -->
