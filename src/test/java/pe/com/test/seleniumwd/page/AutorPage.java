@@ -8,18 +8,6 @@ import pe.com.test.seleniumwd.driver.LibreriaVirtualDriver;
 
 public class AutorPage {
 
-	/*private By linkMenu = By.xpath("/html/body/section/div[1]/div");
-	private By linkModAlmacen = By.xpath("/html/body/section/div[1]/nav/ul/li/span");
-	private By linkMntCategoria = By.linkText("Mnt. de Categoría");
-	private By botonFiltrar = By.id("btnFiltrar");
-	private By botonNuevo = By.id("btnNuevo");
-	private By cajaNombre = By.id("txtNombre");
-	private By cajaFilto = By.id("txtFiltro");
-	private By botonGuardar = By.id("btnGuardar");
-	private By botonEditar = By.id("btnActualizar");
-	private By mensajeRespuesta = By.id("messages");
-	private By primeraFila = By.xpath("//*[@id=\"tablaCategorias_data\"]/tr/td[1]");
-	*/
 	
 	//Del autor crear
 	private By autorLink = By.xpath("//a[@href='/admin/autor/nuevo']");
@@ -66,48 +54,6 @@ public class AutorPage {
 	
 	return webDriver.findElement(mensajeEsperado).getText();
 }
-	
-		
-	
-	/*public String insertar(String nombre) throws Exception {
-		webDriver.findElement(linkMenu).click();
-		Thread.sleep(2000);
-		webDriver.findElement(linkModAlmacen).click();
-		Thread.sleep(2000);
-		webDriver.findElement(linkMntCategoria).click();
-		Thread.sleep(2000);
-		webDriver.findElement(botonNuevo).click();
-		Thread.sleep(2000);
-		webDriver.findElement(cajaNombre).clear();
-		webDriver.findElement(cajaNombre).sendKeys(nombre);
-		webDriver.findElement(botonGuardar).click();
-		Thread.sleep(2000);
-		return webDriver.findElement(mensajeRespuesta).getText();
-	}
-	
-	public String actualizar(String nombreBuscar, String nombreActualizar) 
-			throws Exception{
-		webDriver.findElement(linkMenu).click();
-		Thread.sleep(2000);
-		webDriver.findElement(linkModAlmacen).click();
-		Thread.sleep(2000);
-		webDriver.findElement(linkMntCategoria).click();
-		Thread.sleep(2000);
-		webDriver.findElement(cajaFilto).clear();
-		webDriver.findElement(cajaFilto).sendKeys(nombreBuscar);
-		webDriver.findElement(botonFiltrar).click();
-		Thread.sleep(2000);
-		webDriver.findElement(primeraFila).click();
-		Thread.sleep(2000);
-		webDriver.findElement(botonEditar).click();
-		Thread.sleep(2000);
-		webDriver.findElement(cajaNombre).clear();
-		webDriver.findElement(cajaNombre).sendKeys(nombreActualizar);
-		webDriver.findElement(botonGuardar).click();
-		Thread.sleep(2000);
-		return webDriver.findElement(mensajeRespuesta).getText();
-	}
-	*/
 	
 	public void cerrarPagina(){
 		LibreriaVirtualDriver.cerrarPagina(webDriver);

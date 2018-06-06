@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="VisorTestSuite" parallel="false">
-	<test name="CategoriaTest" enabled="false">
-		<parameter name="nombreInsertar" value="Chocolates" />
-		<parameter name="nombreActualizar" value="Lacteos" />
+<suite name="LibreriaTestSuite" parallel="false">
+	<test name="AutorTest" enabled="false">
+		<parameter name="nombreInsertar" value="AutorPrueba" />
+		<parameter name="nombreActualizar" value="AutorPrueba2" />
 		<classes>
-			<class name="pe.com.test.CategoriaTest" />
+			<class name="pe.com.test.AutorTest" />
 		</classes>
 	</test>
 	<test name="AutorWebDriverTest">

@@ -1,10 +1,10 @@
 package pe.com.test.bean;
 
-public class CategoriaBean {
+public class AutorBean {
 
 	private String nombre;
 	
-	public CategoriaBean(String nombre) {
+	public AutorBean(String nombre) {
 		this.nombre = nombre;
 	}
 
