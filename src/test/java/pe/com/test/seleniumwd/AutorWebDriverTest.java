@@ -35,7 +35,7 @@ public class AutorWebDriverTest {
 		System.out.println("Fuente de Datos: " + fuenteDatos);
 		switch(fuenteDatos){
 			case "BD":
-				datos = MySql.leerAutorMysql();
+				datos = MySql.leerDataAutorMysql();
 				break;
 			case "Excel":
 				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaArchivo");

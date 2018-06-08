@@ -17,10 +17,14 @@ public class AutorPage {
 	private By guardarButton = By.id("guardarButton");
 	private By mensajeEsperado = By.id("mensaje");
 	
+
 	private By mensaje1 = By.xpath("/html/body/div/div/div[2]/form/div[1]/div");
 	private By mensaje2= By.xpath("/html/body/div/div/div[2]/form/div[2]/div");
 	private By mensaje3= By.xpath("/html/body/div/div/div[2]/form/div[3]/div");
 
+	
+	
+	//De
 	//Del autor listado
 	private By autorListadoLink = By.xpath("//a[@href='/admin/autor/listado']");
 	
@@ -46,13 +50,19 @@ public class AutorPage {
 
 	webDriver.findElement(guardarButton).click();
 	
-	Assert.assertEquals(valorEsperado1, mensaje1);
-	Assert.assertEquals(valorEsperado2, mensaje2);
-	Assert.assertEquals(valorEsperado3, mensaje3);
 	
-	Thread.sleep(3000);
+	if(valorEsperado1!="") //para que no inicie esta prueba ya que si se espera llenar el campo
+	{Assert.assertEquals(valorEsperado1, webDriver.findElement(mensaje1).getText());}
+	if(valorEsperado2!="") //para que no inicie esta prueba ya que si se espera llenar el campo
+	{Assert.assertEquals(valorEsperado2, webDriver.findElement(mensaje2).getText());}
+	if(valorEsperado3!="") //para que no inicie esta prueba ya que si se espera llenar el campo
+	{Assert.assertEquals(valorEsperado3, webDriver.findElement(mensaje3).getText());}
+	Thread.sleep(1000);
 	
+	if(valorEsperado1=="" && valorEsperado2=="" && valorEsperado3 =="")
 	return webDriver.findElement(mensajeEsperado).getText();
+	else
+		return "";
 }
 	
 	public void cerrarPagina(){

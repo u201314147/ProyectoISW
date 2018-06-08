@@ -59,6 +59,8 @@ public class AutorEditar {
 	
 	webDriver.findElement(guardarButton).click();
 	
+	String text = webDriver.findElement(mensajeEsperado).getText();
+	
 	Thread.sleep(1000);
 
 	webDriver.findElement(txtBuscarAutor).sendKeys(nombre);
@@ -70,7 +72,7 @@ public class AutorEditar {
 	
 	Thread.sleep(1000);
 	
-	return webDriver.findElement(mensajeEsperado).getText();
+	return text;
 }
 	
 	public void cerrarPagina(){

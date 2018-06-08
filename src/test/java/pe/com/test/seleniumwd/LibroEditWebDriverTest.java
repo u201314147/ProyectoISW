@@ -10,16 +10,16 @@ import org.testng.annotations.Test;
 
 import pe.com.test.seleniumwd.fuenteDatos.Excel;
 import pe.com.test.seleniumwd.fuenteDatos.MySql;
-import pe.com.test.seleniumwd.page.AutorEditar;
-import pe.com.test.seleniumwd.page.AutorElim;
 import pe.com.test.seleniumwd.page.AutorPage;
 import pe.com.test.seleniumwd.page.IniciarSesionPage;
+import pe.com.test.seleniumwd.page.LibroEdit;
+import pe.com.test.seleniumwd.page.LibroPage;
 import pe.com.test.seleniumwd.util.Utilitario;
 
-public class AutorElimWebDriverTest {
+public class LibroEditWebDriverTest {
 
 	private String urlInicial = "http://localhost:8080/admin/login";
-	private AutorElim autorElim;
+	private LibroEdit libroEdit;
 	private IniciarSesionPage iniciarSesionPage;
 	private String rutaCarpetaError = "C:\\CapturasPantallas\\Autores";
 
@@ -27,7 +27,7 @@ public class AutorElimWebDriverTest {
 	@Parameters({ "navegador", "remoto" })
 	public void inicioClase(String navegador, int remoto) throws Exception {
 		this.iniciarSesionPage = new IniciarSesionPage(navegador, this.urlInicial, remoto == 1);
-		this.autorElim = new AutorElim(this.iniciarSesionPage.getWebDriver());
+		this.libroEdit = new LibroEdit(this.iniciarSesionPage.getWebDriver());
 	}
 
 	@DataProvider(name = "datosEntrada")
@@ -37,7 +37,7 @@ public class AutorElimWebDriverTest {
 		System.out.println("Fuente de Datos: " + fuenteDatos);
 		switch(fuenteDatos){
 			case "BD":
-				datos = MySql.leerDataAutorElimMysql();
+				datos = MySql.leerDataLibroEditMysql();
 				break;
 			case "Excel":
 				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaArchivo");
@@ -49,14 +49,14 @@ public class AutorElimWebDriverTest {
 	
 	
 	@Test(dataProvider = "datosEntrada")
-	public void eliminarAutor(String usuario, String clave, String buscar, String valorEsperado) throws Exception {
+	public void editarLibro(String usuario, String clave, String buscarPrecio,String titulo, String precio, String isbn, String sinopsis, String mensajeEsperado) throws Exception {
 		try {
 			iniciarSesionPage.iniciarSesion(usuario, clave);
-			String valorObtenido = autorElim.eliminarAutor(buscar.trim());
-			Assert.assertEquals(valorObtenido, valorEsperado);
-		
+			String valorObtenido = libroEdit.editarLibro(buscarPrecio.trim(), titulo.trim(), precio.trim(), isbn.trim(), sinopsis.trim());
+			Assert.assertEquals(valorObtenido, mensajeEsperado);
+
 		}catch(AssertionError e){
-			Utilitario.caputarPantallarError(rutaCarpetaError, e.getMessage(), autorElim.getWebDriver());
+			Utilitario.caputarPantallarError(rutaCarpetaError, e.getMessage(), libroEdit.getWebDriver());
 			Assert.fail(e.getMessage());
 		}catch (Exception e) {
 			e.printStackTrace();
@@ -67,7 +67,7 @@ public class AutorElimWebDriverTest {
 
 	@AfterTest
 	public void tearDown() throws Exception {
-		autorElim.cerrarPagina();
+		libroEdit.cerrarPagina();
 	}
 
 }

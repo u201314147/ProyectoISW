@@ -47,4 +47,25 @@
 			<class name="pe.com.test.seleniumwd.LibroWebDriverTest" />	
 		</classes>
 	</test>
+	
+	
+	<test name="LibroWebDriverTest_Editar">
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroEdit.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroEditWebDriverTest" />	
+		</classes>
+	</test>
+	
+	<test name="LibroWebDriverTest_Eliminar">
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroElim.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroElimWebDriverTest" />	
+		</classes>
+	</test>
 </suite> 

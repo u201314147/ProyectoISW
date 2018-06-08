@@ -36,7 +36,7 @@ public class AutorEditWebDriverTest {
 		System.out.println("Fuente de Datos: " + fuenteDatos);
 		switch(fuenteDatos){
 			case "BD":
-				datos = MySql.leerAutorMysql();
+			    datos = MySql.leerDataAutorEditMysql();
 				break;
 			case "Excel":
 				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaArchivo");
@@ -48,7 +48,7 @@ public class AutorEditWebDriverTest {
 	
 	
 	@Test(dataProvider = "datosEntrada")
-	public void insertarAutores(String usuario, String clave, String buscar, String nombre, String apellido, String nacionalidad, String valorEsperado) throws Exception {
+	public void editarAutor(String usuario, String clave, String buscar, String nombre, String apellido, String nacionalidad, String valorEsperado) throws Exception {
 		try {
 			iniciarSesionPage.iniciarSesion(usuario, clave);
 			String valorObtenido = autorEditar.editarAutor(buscar.trim(), nombre.trim(), apellido.trim(), nacionalidad.trim());

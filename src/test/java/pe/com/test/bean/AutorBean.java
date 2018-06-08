@@ -2,20 +2,6 @@ package pe.com.test.bean;
 
 public class AutorBean {
 
-	private String nombre;
-	
-	public AutorBean(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	
-	
+	//LA LOGICA DE LOS TEST SE ENCUENTRAN EN EL OTRO PROYECTO
 	
 }

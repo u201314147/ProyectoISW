@@ -11,7 +11,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="inicioClase"/>
-          <include name="insertarAutores" invocation-numbers="0 1 2 3"/>
+          <include name="insertarAutores" invocation-numbers="1"/>
         </methods>
       </class> <!-- pe.com.test.seleniumwd.AutorWebDriverTest -->
     </classes>
@@ -24,41 +24,26 @@
     <classes>
       <class name="pe.com.test.seleniumwd.AutorEditWebDriverTest">
         <methods>
-          <include name="insertarAutores" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="inicioClase"/>
+          <include name="editarAutor" invocation-numbers="0"/>
         </methods>
       </class> <!-- pe.com.test.seleniumwd.AutorEditWebDriverTest -->
     </classes>
   </test> <!-- AutorWebDriverTest_Editar(failed) -->
-  <test thread-count="5" name="AutorWebDriverTest_Eliminar(failed)">
+  <test thread-count="5" name="LibroWebDriverTest_Editar(failed)">
     <parameter name="navegador" value="chrome"/>
-    <parameter name="rutaArchivo" value="C:\Data\DataAutorElim.xls"/>
+    <parameter name="rutaArchivo" value="C:\Data\DataLibroEdit.xls"/>
     <parameter name="remoto" value="0"/>
     <parameter name="fuenteDatos" value="Excel"/>
     <classes>
-      <class name="pe.com.test.seleniumwd.AutorElimWebDriverTest">
+      <class name="pe.com.test.seleniumwd.LibroEditWebDriverTest">
         <methods>
-          <include name="insertarAutores" invocation-numbers="0"/>
+          <include name="editarLibro" invocation-numbers="0"/>
           <include name="inicioClase"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- pe.com.test.seleniumwd.AutorElimWebDriverTest -->
+      </class> <!-- pe.com.test.seleniumwd.LibroEditWebDriverTest -->
     </classes>
-  </test> <!-- AutorWebDriverTest_Eliminar(failed) -->
-  <test thread-count="5" name="LibroWebDriverTest(failed)">
-    <parameter name="navegador" value="chrome"/>
-    <parameter name="rutaArchivo" value="C:\Data\DataLibro.xls"/>
-    <parameter name="remoto" value="0"/>
-    <parameter name="fuenteDatos" value="Excel"/>
-    <classes>
-      <class name="pe.com.test.seleniumwd.LibroWebDriverTest">
-        <methods>
-          <include name="insertarAutores" invocation-numbers="0 1"/>
-          <include name="inicioClase"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
-    </classes>
-  </test> <!-- LibroWebDriverTest(failed) -->
+  </test> <!-- LibroWebDriverTest_Editar(failed) -->
 </suite> <!-- Failed suite [LibreriaTestSuite] -->

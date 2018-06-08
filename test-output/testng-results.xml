@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="9" ignored="0" total="9" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="LibreriaTestSuite" duration-ms="151011" started-at="2018-06-08T14:41:36Z" finished-at="2018-06-08T14:44:07Z">
+  <suite name="LibreriaTestSuite" duration-ms="126035" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:18:06Z">
     <groups>
     </groups>
-    <test name="AutorWebDriverTest" duration-ms="33929" started-at="2018-06-08T14:41:36Z" finished-at="2018-06-08T14:42:10Z">
+    <test name="AutorWebDriverTest" duration-ms="37855" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:16:37Z">
       <class name="pe.com.test.seleniumwd.AutorWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="inicioClase" is-config="true" duration-ms="3046" started-at="2018-06-08T14:41:36Z" finished-at="2018-06-08T14:41:39Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="inicioClase" is-config="true" duration-ms="3532" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:16:03Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="9519" started-at="2018-06-08T14:41:39Z" data-provider="datosEntrada" finished-at="2018-06-08T14:41:49Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="10433" started-at="2018-06-08T19:16:03Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:14Z">
           <params>
             <param index="0">
               <value>
@@ -71,46 +71,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorWebDriverTest.insertarAutores(AutorWebDriverTest.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="6806" started-at="2018-06-08T14:41:49Z" data-provider="datosEntrada" finished-at="2018-06-08T14:41:56Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7609" started-at="2018-06-08T19:16:14Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:21Z">
           <params>
             <param index="0">
               <value>
@@ -158,46 +122,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found [No puede estar vacío]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found [No puede estar vacío]
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorWebDriverTest.insertarAutores(AutorWebDriverTest.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="6776" started-at="2018-06-08T14:41:56Z" data-provider="datosEntrada" finished-at="2018-06-08T14:42:02Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7578" started-at="2018-06-08T19:16:21Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:29Z">
           <params>
             <param index="0">
               <value>
@@ -245,46 +173,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorWebDriverTest.insertarAutores(AutorWebDriverTest.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="6834" started-at="2018-06-08T14:42:02Z" data-provider="datosEntrada" finished-at="2018-06-08T14:42:09Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7735" started-at="2018-06-08T19:16:29Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:37Z">
           <params>
             <param index="0">
               <value>
@@ -332,54 +224,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [By.xpath: /html/body/div/div/div[2]/form/div[1]/div] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorWebDriverTest.insertarAutores(AutorWebDriverTest.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="tearDown" is-config="true" duration-ms="667" started-at="2018-06-08T14:42:09Z" finished-at="2018-06-08T14:42:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="tearDown" is-config="true" duration-ms="695" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorWebDriverTest -->
     </test> <!-- AutorWebDriverTest -->
-    <test name="AutorWebDriverTest_Editar" duration-ms="18481" started-at="2018-06-08T14:42:10Z" finished-at="2018-06-08T14:42:28Z">
+    <test name="AutorWebDriverTest_Editar" duration-ms="19444" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:57Z">
       <class name="pe.com.test.seleniumwd.AutorEditWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="inicioClase" is-config="true" duration-ms="1995" started-at="2018-06-08T14:42:10Z" finished-at="2018-06-08T14:42:12Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="inicioClase" is-config="true" duration-ms="2956" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:40Z">
           <params>
             <param index="0">
               <value>
@@ -395,7 +251,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="insertarAutores" duration-ms="15813" started-at="2018-06-08T14:42:12Z" data-provider="datosEntrada" finished-at="2018-06-08T14:42:28Z">
+        <test-method status="PASS" signature="editarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="editarAutor" duration-ms="15818" started-at="2018-06-08T19:16:40Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:56Z">
           <params>
             <param index="0">
               <value>
@@ -429,58 +285,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="6">
               <value>
-                <![CDATA[Autor Actualizado]]>
+                <![CDATA[Autor actualizado]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Autor Actualizado] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Autor Actualizado] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorEditWebDriverTest.insertarAutores(AutorEditWebDriverTest.java:60)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="tearDown" is-config="true" duration-ms="652" started-at="2018-06-08T14:42:28Z" finished-at="2018-06-08T14:42:28Z">
+        </test-method> <!-- editarAutor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-06-08T19:16:56Z" finished-at="2018-06-08T19:16:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorEditWebDriverTest -->
     </test> <!-- AutorWebDriverTest_Editar -->
-    <test name="AutorWebDriverTest_Eliminar" duration-ms="12647" started-at="2018-06-08T14:42:28Z" finished-at="2018-06-08T14:42:41Z">
+    <test name="AutorWebDriverTest_Eliminar" duration-ms="14680" started-at="2018-06-08T19:16:57Z" finished-at="2018-06-08T19:17:12Z">
       <class name="pe.com.test.seleniumwd.AutorElimWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="inicioClase" is-config="true" duration-ms="1978" started-at="2018-06-08T14:42:28Z" finished-at="2018-06-08T14:42:30Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="inicioClase" is-config="true" duration-ms="2872" started-at="2018-06-08T19:16:57Z" finished-at="2018-06-08T19:17:00Z">
           <params>
             <param index="0">
               <value>
@@ -496,7 +316,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="insertarAutores" duration-ms="10017" started-at="2018-06-08T14:42:30Z" data-provider="datosEntrada" finished-at="2018-06-08T14:42:40Z">
+        <test-method status="PASS" signature="eliminarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="eliminarAutor" duration-ms="11142" started-at="2018-06-08T19:17:00Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:11Z">
           <params>
             <param index="0">
               <value>
@@ -515,58 +335,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Autor Eliminado]]>
+                <![CDATA[Autor eliminado]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Autor Eliminado] but found [Autor eliminado]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Autor Eliminado] but found [Autor eliminado]
-at org.testng.Assert.fail(Assert.java:96)
-at pe.com.test.seleniumwd.AutorElimWebDriverTest.insertarAutores(AutorElimWebDriverTest.java:60)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="tearDown" is-config="true" duration-ms="646" started-at="2018-06-08T14:42:40Z" finished-at="2018-06-08T14:42:41Z">
+        </test-method> <!-- eliminarAutor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="tearDown" is-config="true" duration-ms="659" started-at="2018-06-08T19:17:11Z" finished-at="2018-06-08T19:17:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorElimWebDriverTest -->
     </test> <!-- AutorWebDriverTest_Eliminar -->
-    <test name="LibroWebDriverTest" duration-ms="85861" started-at="2018-06-08T14:42:41Z" finished-at="2018-06-08T14:44:07Z">
+    <test name="LibroWebDriverTest" duration-ms="18408" started-at="2018-06-08T19:17:12Z" finished-at="2018-06-08T19:17:30Z">
       <class name="pe.com.test.seleniumwd.LibroWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="inicioClase" is-config="true" duration-ms="2004" started-at="2018-06-08T14:42:41Z" finished-at="2018-06-08T14:42:43Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="inicioClase" is-config="true" duration-ms="3442" started-at="2018-06-08T19:17:12Z" finished-at="2018-06-08T19:17:15Z">
           <params>
             <param index="0">
               <value>
@@ -582,46 +366,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarAutores" duration-ms="83202" started-at="2018-06-08T14:42:43Z" data-provider="datosEntrada" finished-at="2018-06-08T14:44:06Z">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-Data provider mismatch
-Method: insertarAutores([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,null,null]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-Data provider mismatch
-Method: insertarAutores([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) ,(java.lang.String) ,(java.lang.String) ,null,null]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:982)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- insertarAutores -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarAutores" duration-ms="42962" started-at="2018-06-08T14:42:43Z" data-provider="datosEntrada" finished-at="2018-06-08T14:43:26Z">
+        <test-method status="PASS" signature="insertarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarLibro" duration-ms="14282" started-at="2018-06-08T19:17:15Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:29Z">
           <params>
             <param index="0">
               <value>
@@ -640,7 +385,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[50]]>
+                <![CDATA[29.5]]>
               </value>
             </param>
             <param index="4">
@@ -659,47 +404,34 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at pe.com.test.seleniumwd.LibroWebDriverTest.insertarAutores(LibroWebDriverTest.java:62)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- insertarAutores -->
-        <test-method status="FAIL" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarAutores" duration-ms="40232" started-at="2018-06-08T14:43:26Z" data-provider="datosEntrada" finished-at="2018-06-08T14:44:06Z">
+        </test-method> <!-- insertarLibro -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="677" started-at="2018-06-08T19:17:29Z" finished-at="2018-06-08T19:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
+    </test> <!-- LibroWebDriverTest -->
+    <test name="LibroWebDriverTest_Editar" duration-ms="19876" started-at="2018-06-08T19:17:30Z" finished-at="2018-06-08T19:17:50Z">
+      <class name="pe.com.test.seleniumwd.LibroEditWebDriverTest">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="inicioClase" is-config="true" duration-ms="3917" started-at="2018-06-08T19:17:30Z" finished-at="2018-06-08T19:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="editarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="editarLibro" duration-ms="15275" started-at="2018-06-08T19:17:34Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:49Z">
           <params>
             <param index="0">
               <value>
@@ -713,75 +445,93 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="2">
               <value>
-                <![CDATA[TituloPrueba]]>
+                <![CDATA[29.5]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[50]]>
+                <![CDATA[tituloActualizado]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[13-400491-1]]>
+                <![CDATA[15.9]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[]]>
+                <![CDATA[11-887272-0]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[]]>
+                <![CDATA[sinopsis actualizada]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Libro actualizado]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at pe.com.test.seleniumwd.LibroWebDriverTest.insertarAutores(LibroWebDriverTest.java:62)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="653" started-at="2018-06-08T14:44:06Z" finished-at="2018-06-08T14:44:07Z">
+        </test-method> <!-- editarLibro -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="677" started-at="2018-06-08T19:17:49Z" finished-at="2018-06-08T19:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
-    </test> <!-- LibroWebDriverTest -->
+      </class> <!-- pe.com.test.seleniumwd.LibroEditWebDriverTest -->
+    </test> <!-- LibroWebDriverTest_Editar -->
+    <test name="LibroWebDriverTest_Eliminar" duration-ms="15727" started-at="2018-06-08T19:17:50Z" finished-at="2018-06-08T19:18:06Z">
+      <class name="pe.com.test.seleniumwd.LibroElimWebDriverTest">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="inicioClase" is-config="true" duration-ms="3521" started-at="2018-06-08T19:17:50Z" finished-at="2018-06-08T19:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="eliminarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="eliminarLibro" duration-ms="11530" started-at="2018-06-08T19:17:53Z" data-provider="datosEntrada" finished-at="2018-06-08T19:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usuario@correo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15.9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Libro eliminado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarLibro -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="tearDown" is-config="true" duration-ms="671" started-at="2018-06-08T19:18:05Z" finished-at="2018-06-08T19:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pe.com.test.seleniumwd.LibroElimWebDriverTest -->
+    </test> <!-- LibroWebDriverTest_Eliminar -->
   </suite> <!-- LibreriaTestSuite -->
 </testng-results>

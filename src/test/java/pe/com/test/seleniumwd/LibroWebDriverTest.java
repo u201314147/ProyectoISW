@@ -36,8 +36,8 @@ public class LibroWebDriverTest {
 		System.out.println("Fuente de Datos: " + fuenteDatos);
 		switch(fuenteDatos){
 			case "BD":
-				datos = MySql.leerAutorMysql();
-				break;
+				datos = MySql.leerDataLibroMysql();
+			break;
 			case "Excel":
 				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaArchivo");
 				datos = Excel.leerExcel(rutaArchivo);
@@ -48,10 +48,10 @@ public class LibroWebDriverTest {
 	
 	
 	@Test(dataProvider = "datosEntrada")
-	public void insertarAutores(String usuario, String clave, String titulo, String precio, String isbn, String sinopsis, String mensajeEsperado) throws Exception {
+	public void insertarLibro(String usuario, String clave, String titulo, String precio, String isbn, String sinopsis, String mensajeEsperado) throws Exception {
 		try {
 			iniciarSesionPage.iniciarSesion(usuario, clave);
-			String valorObtenido = libroPage.insertarLibro(titulo.trim(), precio.trim(), isbn.trim(), sinopsis.trim(), mensajeEsperado.trim());
+			String valorObtenido = libroPage.insertarLibro(titulo.trim(), precio.trim(), isbn.trim(), sinopsis.trim());
 			Assert.assertEquals(valorObtenido, mensajeEsperado);
 
 		}catch(AssertionError e){

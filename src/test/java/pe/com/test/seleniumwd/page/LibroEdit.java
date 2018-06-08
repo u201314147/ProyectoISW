@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 import pe.com.test.seleniumwd.driver.LibreriaVirtualDriver;
 
-public class LibroPage {
+public class LibroEdit {
 
 	
 	//Del libro crear
@@ -19,18 +19,40 @@ public class LibroPage {
 	private By guardarButton = By.id("guardarButton");
 	private By mensaje = By.xpath("/html/body/div[3]/div/div[2]/div[1]");
 	
+	//Del libro listado
+	private By LibroLinkListado = By.xpath("//a[@href='/admin/libro/listado']");
+	private By txtBuscarPrecio = By.id("precio");
+	private By linkEditar = By.xpath("/html/body/div[3]/div/div[2]/table/tbody/tr/td[6]/a[2]");
+	private By BtnBuscar = By.xpath("/html/body/div[3]/div/div[2]/div[2]/form/button");
 	
 	private WebDriver webDriver = null;
 	
 	
-	public LibroPage(WebDriver webDriver) {
+	public LibroEdit(WebDriver webDriver) {
 		this.webDriver = webDriver;
 	}
 		
-	public String insertarLibro(String titulo, String precio, String isbn, String sinopsis)  throws Exception {
+	public String editarLibro(String buscarPrecio, String titulo, String precio, String isbn, String sinopsis)  throws Exception {
+	
 		
-		webDriver.findElement(LibroLink).click();
-		Thread.sleep(3000);
+		webDriver.findElement(LibroLinkListado).click();
+		Thread.sleep(1000);	
+		
+		webDriver.findElement(txtBuscarPrecio).clear();
+		webDriver.findElement(txtBuscarPrecio).sendKeys(buscarPrecio);
+		
+		Thread.sleep(1000);	
+		
+		webDriver.findElement(BtnBuscar).click();
+	
+		
+		Thread.sleep(1000);	
+		
+		webDriver.findElement(linkEditar).click();
+		
+		Thread.sleep(1000);	
+		
+		
 		webDriver.findElement(txtTitulo).clear();
 		webDriver.findElement(txtTitulo).sendKeys(titulo);
 		webDriver.findElement(txtPrecio).clear();
@@ -45,10 +67,21 @@ public class LibroPage {
 		webDriver.findElement(checkBoxPrimerAutor).click();
 		webDriver.findElement(guardarButton).click();
 		
+	
+		Thread.sleep(1000);
+	
+		String texto = webDriver.findElement(mensaje).getText();
 		
-		Thread.sleep(3000);
+		webDriver.findElement(txtBuscarPrecio).clear();
+		webDriver.findElement(txtBuscarPrecio).sendKeys(precio);
 		
-		return webDriver.findElement(mensaje).getText();
+		Thread.sleep(1000);	
+		
+		webDriver.findElement(BtnBuscar).click();
+	
+		
+		
+		return texto;
 		}
 	
 	public void cerrarPagina(){
