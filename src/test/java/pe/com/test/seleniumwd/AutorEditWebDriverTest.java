@@ -10,15 +10,15 @@ import org.testng.annotations.Test;
 
 import pe.com.test.seleniumwd.fuenteDatos.Excel;
 import pe.com.test.seleniumwd.fuenteDatos.MySql;
+import pe.com.test.seleniumwd.page.AutorEditar;
 import pe.com.test.seleniumwd.page.AutorPage;
 import pe.com.test.seleniumwd.page.IniciarSesionPage;
-import pe.com.test.seleniumwd.page.LibroPage;
 import pe.com.test.seleniumwd.util.Utilitario;
 
-public class LibroWebDriverTest {
+public class AutorEditWebDriverTest {
 
 	private String urlInicial = "http://localhost:8080/admin/login";
-	private LibroPage libroPage;
+	private AutorEditar autorEditar;
 	private IniciarSesionPage iniciarSesionPage;
 	private String rutaCarpetaError = "C:\\CapturasPantallas\\Autores";
 
@@ -26,7 +26,7 @@ public class LibroWebDriverTest {
 	@Parameters({ "navegador", "remoto" })
 	public void inicioClase(String navegador, int remoto) throws Exception {
 		this.iniciarSesionPage = new IniciarSesionPage(navegador, this.urlInicial, remoto == 1);
-		this.libroPage = new LibroPage(this.iniciarSesionPage.getWebDriver());
+		this.autorEditar = new AutorEditar(this.iniciarSesionPage.getWebDriver());
 	}
 
 	@DataProvider(name = "datosEntrada")
@@ -48,14 +48,15 @@ public class LibroWebDriverTest {
 	
 	
 	@Test(dataProvider = "datosEntrada")
-	public void insertarAutores(String usuario, String clave, String titulo, String precio, String isbn, String sinopsis, String mensajeEsperado) throws Exception {
+	public void insertarAutores(String usuario, String clave, String buscar, String nombre, String apellido, String nacionalidad, String valorEsperado) throws Exception {
 		try {
 			iniciarSesionPage.iniciarSesion(usuario, clave);
-			String valorObtenido = libroPage.insertarLibro(titulo.trim(), precio.trim(), isbn.trim(), sinopsis.trim(), mensajeEsperado.trim());
-			Assert.assertEquals(valorObtenido, mensajeEsperado);
-
+			String valorObtenido = autorEditar.editarAutor(buscar.trim(), nombre.trim(), apellido.trim(), nacionalidad.trim());
+			Assert.assertEquals(valorObtenido, valorEsperado);
+			
+		
 		}catch(AssertionError e){
-			Utilitario.caputarPantallarError(rutaCarpetaError, e.getMessage(), libroPage.getWebDriver());
+			Utilitario.caputarPantallarError(rutaCarpetaError, e.getMessage(), autorEditar.getWebDriver());
 			Assert.fail(e.getMessage());
 		}catch (Exception e) {
 			e.printStackTrace();
@@ -66,7 +67,7 @@ public class LibroWebDriverTest {
 
 	@AfterTest
 	public void tearDown() throws Exception {
-		libroPage.cerrarPagina();
+		autorEditar.cerrarPagina();
 	}
 
 }

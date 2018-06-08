@@ -12,7 +12,7 @@ public class MySql {
 
 	
 
-	public static String[][] leerCategoriaMysql() {
+	public static String[][] leerAutorMysql() {
 		String[][]  datos = null;
 		int i = 0;
 		try {

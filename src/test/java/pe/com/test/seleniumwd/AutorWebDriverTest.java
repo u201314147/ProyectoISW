@@ -19,7 +19,7 @@ public class AutorWebDriverTest {
 	private String urlInicial = "http://localhost:8080/admin/login";
 	private AutorPage autorPage;
 	private IniciarSesionPage iniciarSesionPage;
-	private String rutaCarpetaError = "C:\\CapturasPantallas\\Categorias";
+	private String rutaCarpetaError = "C:\\CapturasPantallas\\Autores";
 
 	@BeforeTest
 	@Parameters({ "navegador", "remoto" })
@@ -35,10 +35,10 @@ public class AutorWebDriverTest {
 		System.out.println("Fuente de Datos: " + fuenteDatos);
 		switch(fuenteDatos){
 			case "BD":
-				datos = MySql.leerCategoriaMysql();
+				datos = MySql.leerAutorMysql();
 				break;
 			case "Excel":
-				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaAutor");
+				String rutaArchivo = context.getCurrentXmlTest().getParameter("rutaArchivo");
 				datos = Excel.leerExcel(rutaArchivo);
 				break;
 		}
