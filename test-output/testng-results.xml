@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="LibreriaTestSuite" duration-ms="126035" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:18:06Z">
+  <suite name="LibreriaTestSuite" duration-ms="106204" started-at="2018-06-09T17:15:12Z" finished-at="2018-06-09T17:16:58Z">
     <groups>
     </groups>
-    <test name="AutorWebDriverTest" duration-ms="37855" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:16:37Z">
+    <test name="AutorWebDriverTest_c" duration-ms="37759" started-at="2018-06-09T17:15:12Z" finished-at="2018-06-09T17:15:50Z">
       <class name="pe.com.test.seleniumwd.AutorWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="inicioClase" is-config="true" duration-ms="3532" started-at="2018-06-08T19:16:00Z" finished-at="2018-06-08T19:16:03Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="inicioClase" is-config="true" duration-ms="5858" started-at="2018-06-09T17:15:12Z" finished-at="2018-06-09T17:15:18Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="10433" started-at="2018-06-08T19:16:03Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:14Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="8720" started-at="2018-06-09T17:15:18Z" data-provider="datosEntrada" finished-at="2018-06-09T17:15:27Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7609" started-at="2018-06-08T19:16:14Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:21Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7425" started-at="2018-06-09T17:15:27Z" data-provider="datosEntrada" finished-at="2018-06-09T17:15:34Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7578" started-at="2018-06-08T19:16:21Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:29Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7384" started-at="2018-06-09T17:15:34Z" data-provider="datosEntrada" finished-at="2018-06-09T17:15:42Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7735" started-at="2018-06-08T19:16:29Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:37Z">
+        <test-method status="PASS" signature="insertarAutores(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="insertarAutores" duration-ms="7425" started-at="2018-06-09T17:15:42Z" data-provider="datosEntrada" finished-at="2018-06-09T17:15:49Z">
           <params>
             <param index="0">
               <value>
@@ -227,15 +227,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarAutores -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="tearDown" is-config="true" duration-ms="695" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorWebDriverTest@5622fdf]" name="tearDown" is-config="true" duration-ms="653" started-at="2018-06-09T17:15:49Z" finished-at="2018-06-09T17:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorWebDriverTest -->
-    </test> <!-- AutorWebDriverTest -->
-    <test name="AutorWebDriverTest_Editar" duration-ms="19444" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:57Z">
+    </test> <!-- AutorWebDriverTest_c -->
+    <test name="AutorWebDriverTest_Editar_c" duration-ms="16596" started-at="2018-06-09T17:15:50Z" finished-at="2018-06-09T17:16:06Z">
       <class name="pe.com.test.seleniumwd.AutorEditWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="inicioClase" is-config="true" duration-ms="2956" started-at="2018-06-08T19:16:37Z" finished-at="2018-06-08T19:16:40Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="inicioClase" is-config="true" duration-ms="1995" started-at="2018-06-09T17:15:50Z" finished-at="2018-06-09T17:15:52Z">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="editarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="editarAutor" duration-ms="15818" started-at="2018-06-08T19:16:40Z" data-provider="datosEntrada" finished-at="2018-06-08T19:16:56Z">
+        <test-method status="PASS" signature="editarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="editarAutor" duration-ms="13953" started-at="2018-06-09T17:15:52Z" data-provider="datosEntrada" finished-at="2018-06-09T17:16:06Z">
           <params>
             <param index="0">
               <value>
@@ -292,15 +292,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editarAutor -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-06-08T19:16:56Z" finished-at="2018-06-08T19:16:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorEditWebDriverTest@7085bdee]" name="tearDown" is-config="true" duration-ms="638" started-at="2018-06-09T17:16:06Z" finished-at="2018-06-09T17:16:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorEditWebDriverTest -->
-    </test> <!-- AutorWebDriverTest_Editar -->
-    <test name="AutorWebDriverTest_Eliminar" duration-ms="14680" started-at="2018-06-08T19:16:57Z" finished-at="2018-06-08T19:17:12Z">
+    </test> <!-- AutorWebDriverTest_Editar_c -->
+    <test name="AutorWebDriverTest_Eliminar_c" duration-ms="11391" started-at="2018-06-09T17:16:06Z" finished-at="2018-06-09T17:16:18Z">
       <class name="pe.com.test.seleniumwd.AutorElimWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="inicioClase" is-config="true" duration-ms="2872" started-at="2018-06-08T19:16:57Z" finished-at="2018-06-08T19:17:00Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="inicioClase" is-config="true" duration-ms="1978" started-at="2018-06-09T17:16:06Z" finished-at="2018-06-09T17:16:08Z">
           <params>
             <param index="0">
               <value>
@@ -316,7 +316,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="eliminarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="eliminarAutor" duration-ms="11142" started-at="2018-06-08T19:17:00Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:11Z">
+        <test-method status="PASS" signature="eliminarAutor(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="eliminarAutor" duration-ms="8765" started-at="2018-06-09T17:16:08Z" data-provider="datosEntrada" finished-at="2018-06-09T17:16:17Z">
           <params>
             <param index="0">
               <value>
@@ -342,15 +342,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eliminarAutor -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="tearDown" is-config="true" duration-ms="659" started-at="2018-06-08T19:17:11Z" finished-at="2018-06-08T19:17:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.AutorElimWebDriverTest@3f49dace]" name="tearDown" is-config="true" duration-ms="643" started-at="2018-06-09T17:16:17Z" finished-at="2018-06-09T17:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.AutorElimWebDriverTest -->
-    </test> <!-- AutorWebDriverTest_Eliminar -->
-    <test name="LibroWebDriverTest" duration-ms="18408" started-at="2018-06-08T19:17:12Z" finished-at="2018-06-08T19:17:30Z">
+    </test> <!-- AutorWebDriverTest_Eliminar_c -->
+    <test name="LibroWebDriverTest_c" duration-ms="13596" started-at="2018-06-09T17:16:18Z" finished-at="2018-06-09T17:16:31Z">
       <class name="pe.com.test.seleniumwd.LibroWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="inicioClase" is-config="true" duration-ms="3442" started-at="2018-06-08T19:17:12Z" finished-at="2018-06-08T19:17:15Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="inicioClase" is-config="true" duration-ms="1948" started-at="2018-06-09T17:16:18Z" finished-at="2018-06-09T17:16:20Z">
           <params>
             <param index="0">
               <value>
@@ -366,7 +366,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="insertarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarLibro" duration-ms="14282" started-at="2018-06-08T19:17:15Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:29Z">
+        <test-method status="PASS" signature="insertarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="insertarLibro" duration-ms="10985" started-at="2018-06-09T17:16:20Z" data-provider="datosEntrada" finished-at="2018-06-09T17:16:31Z">
           <params>
             <param index="0">
               <value>
@@ -407,15 +407,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertarLibro -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="677" started-at="2018-06-08T19:17:29Z" finished-at="2018-06-08T19:17:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroWebDriverTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-06-09T17:16:31Z" finished-at="2018-06-09T17:16:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.LibroWebDriverTest -->
-    </test> <!-- LibroWebDriverTest -->
-    <test name="LibroWebDriverTest_Editar" duration-ms="19876" started-at="2018-06-08T19:17:30Z" finished-at="2018-06-08T19:17:50Z">
+    </test> <!-- LibroWebDriverTest_c -->
+    <test name="LibroWebDriverTest_Editar_c" duration-ms="14935" started-at="2018-06-09T17:16:31Z" finished-at="2018-06-09T17:16:46Z">
       <class name="pe.com.test.seleniumwd.LibroEditWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="inicioClase" is-config="true" duration-ms="3917" started-at="2018-06-08T19:17:30Z" finished-at="2018-06-08T19:17:34Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="inicioClase" is-config="true" duration-ms="1942" started-at="2018-06-09T17:16:31Z" finished-at="2018-06-09T17:16:33Z">
           <params>
             <param index="0">
               <value>
@@ -431,7 +431,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="editarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="editarLibro" duration-ms="15275" started-at="2018-06-08T19:17:34Z" data-provider="datosEntrada" finished-at="2018-06-08T19:17:49Z">
+        <test-method status="PASS" signature="editarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="editarLibro" duration-ms="12331" started-at="2018-06-09T17:16:33Z" data-provider="datosEntrada" finished-at="2018-06-09T17:16:46Z">
           <params>
             <param index="0">
               <value>
@@ -477,15 +477,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editarLibro -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="677" started-at="2018-06-08T19:17:49Z" finished-at="2018-06-08T19:17:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroEditWebDriverTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="656" started-at="2018-06-09T17:16:46Z" finished-at="2018-06-09T17:16:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.LibroEditWebDriverTest -->
-    </test> <!-- LibroWebDriverTest_Editar -->
-    <test name="LibroWebDriverTest_Eliminar" duration-ms="15727" started-at="2018-06-08T19:17:50Z" finished-at="2018-06-08T19:18:06Z">
+    </test> <!-- LibroWebDriverTest_Editar_c -->
+    <test name="LibroWebDriverTest_Eliminar_c" duration-ms="11884" started-at="2018-06-09T17:16:46Z" finished-at="2018-06-09T17:16:58Z">
       <class name="pe.com.test.seleniumwd.LibroElimWebDriverTest">
-        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="inicioClase" is-config="true" duration-ms="3521" started-at="2018-06-08T19:17:50Z" finished-at="2018-06-08T19:17:53Z">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="inicioClase" is-config="true" duration-ms="1983" started-at="2018-06-09T17:16:46Z" finished-at="2018-06-09T17:16:48Z">
           <params>
             <param index="0">
               <value>
@@ -501,7 +501,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioClase -->
-        <test-method status="PASS" signature="eliminarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="eliminarLibro" duration-ms="11530" started-at="2018-06-08T19:17:53Z" data-provider="datosEntrada" finished-at="2018-06-08T19:18:05Z">
+        <test-method status="PASS" signature="eliminarLibro(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="eliminarLibro" duration-ms="9255" started-at="2018-06-09T17:16:48Z" data-provider="datosEntrada" finished-at="2018-06-09T17:16:58Z">
           <params>
             <param index="0">
               <value>
@@ -527,11 +527,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eliminarLibro -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="tearDown" is-config="true" duration-ms="671" started-at="2018-06-08T19:18:05Z" finished-at="2018-06-08T19:18:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.LibroElimWebDriverTest@5649fd9b]" name="tearDown" is-config="true" duration-ms="641" started-at="2018-06-09T17:16:58Z" finished-at="2018-06-09T17:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pe.com.test.seleniumwd.LibroElimWebDriverTest -->
-    </test> <!-- LibroWebDriverTest_Eliminar -->
+    </test> <!-- LibroWebDriverTest_Eliminar_c -->
   </suite> <!-- LibreriaTestSuite -->
 </testng-results>

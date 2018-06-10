@@ -68,4 +68,135 @@
 			<class name="pe.com.test.seleniumwd.LibroElimWebDriverTest" />	
 		</classes>
 	</test>
+
+<!-- firefox-->
+
+<test name="AutorWebDriverTest">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutor.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorWebDriverTest" />
+		</classes>
+	</test>
+	
+	<test name="AutorWebDriverTest_Editar">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutorEdit.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorEditWebDriverTest" />
+		</classes>
+	</test>
+	
+	<test name="AutorWebDriverTest_Eliminar">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutorElim.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorElimWebDriverTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="LibroWebDriverTest">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibro.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroWebDriverTest" />	
+		</classes>
+	</test>
+	
+	
+	<test name="LibroWebDriverTest_Editar">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroEdit.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroEditWebDriverTest" />	
+		</classes>
+	</test>
+	
+	<test name="LibroWebDriverTest_Eliminar">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroElim.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroElimWebDriverTest" />	
+		</classes>
+	</test>
+
+
+
+<!-- internet explorer-->
+
+<test name="AutorWebDriverTest">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutor.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorWebDriverTest" />
+		</classes>
+	</test>
+	
+	<test name="AutorWebDriverTest_Editar">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutorEdit.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorEditWebDriverTest" />
+		</classes>
+	</test>
+	
+	<test name="AutorWebDriverTest_Eliminar">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataAutorElim.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.AutorElimWebDriverTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="LibroWebDriverTest">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibro.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroWebDriverTest" />	
+		</classes>
+	</test>
+	
+	
+	<test name="LibroWebDriverTest_Editar">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroEdit.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroEditWebDriverTest" />	
+		</classes>
+	</test>
+	
+	<test name="LibroWebDriverTest_Eliminar">
+		<parameter name="navegador" value="iexplorer"/>
+		<parameter name="remoto" value="0"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivo" value="C:\Data\DataLibroElim.xls"/>
+		<classes>
+			<class name="pe.com.test.seleniumwd.LibroElimWebDriverTest" />	
+		</classes>
+	</test>
+
 </suite> 
